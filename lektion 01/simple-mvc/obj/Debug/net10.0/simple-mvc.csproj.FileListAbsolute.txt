@@ -95,3 +95,4 @@ C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-mvc\
 C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-mvc\obj\Debug\net10.0\simple-mvc.pdb
 C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-mvc\obj\Debug\net10.0\simple-mvc.genruntimeconfig.cache
 C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-mvc\obj\Debug\net10.0\ref\simple-mvc.dll
+C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-mvc\obj\Debug\net10.0\simple-mvc.sourcelink.json
