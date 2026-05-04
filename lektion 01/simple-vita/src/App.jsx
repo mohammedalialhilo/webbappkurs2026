@@ -21,6 +21,9 @@ function App() {
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
           <h2>Hello World!</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, nihil repellendus quaerat error incidunt neque expedita! Quia ipsam exercitationem tempora, atque voluptatem beatae enim soluta, fugit autem aspernatur, accusantium dolores.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi odit harum dolore, expedita quidem tempora. Repudiandae ipsam ea repellendus, asperiores fugit natus modi mollitia, animi alias nesciunt inventore porro corporis.</p>
+          
         </div>
         <button
           type="button"

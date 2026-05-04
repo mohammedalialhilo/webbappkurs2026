@@ -1,0 +1,13 @@
+.Lorem {
+    color: slateblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    font-size: 1rem;
+    font-style: oblique;
+    margin: 1rem;
+    text-shadow: 1px 1px;
+}
+
+h1 {
+    color: blue;
+}
