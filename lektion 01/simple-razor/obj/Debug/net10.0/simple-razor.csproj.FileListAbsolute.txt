@@ -22,7 +22,6 @@ C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-razo
 C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-razor\obj\Debug\net10.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-razor\obj\Debug\net10.0\scopedcss\bundle\simple-razor.styles.css
 C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-razor\obj\Debug\net10.0\scopedcss\projectbundle\simple-razor.bundle.scp.css
-C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-razor\obj\Debug\net10.0\compressed\5sqclq904x-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-razor\obj\Debug\net10.0\compressed\uq7jkdlqqb-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-razor\obj\Debug\net10.0\compressed\uyrw87o0e4-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-razor\obj\Debug\net10.0\compressed\yxqb81vof5-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -96,3 +95,4 @@ C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-razo
 C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-razor\obj\Debug\net10.0\simple-razor.pdb
 C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-razor\obj\Debug\net10.0\simple-razor.genruntimeconfig.cache
 C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-razor\obj\Debug\net10.0\ref\simple-razor.dll
+C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 01\simple-razor\obj\Debug\net10.0\compressed\5sqclq904x-{0}-e29o64mmrs-e29o64mmrs.gz

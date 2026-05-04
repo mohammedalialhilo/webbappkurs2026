@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZXGt/9wFuHc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alhil\\OneDrive\\Skrivbord\\webbapp\\webbappkurs2026\\lektion 01\\simple-blazor\\simple-blazor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alhil\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.7\\microsoft.aspnetcore.app.internal.assets.10.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
