@@ -1,0 +1,27 @@
+body {
+    background-color: #000000;
+    color: red;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    align-self: auto;
+    font-style: bold;
+}
+
+table span {
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 2%;
+}
+
+nav a:hover {
+    color: aqua;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
