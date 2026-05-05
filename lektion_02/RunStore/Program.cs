@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddDbContext<EShopContext>(options =>
 {
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaulteConnection"));
+    options.UseSqlite(builder.Configuration.GetConnectionString("sqlite"));
 });
 builder.Services.AddControllersWithViews();
 
@@ -25,5 +25,6 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
+await CreateDatabase.InitDb(app);
 
 app.Run();

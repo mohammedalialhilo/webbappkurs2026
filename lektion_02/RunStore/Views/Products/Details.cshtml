@@ -1,0 +1,14 @@
+@using RunStore.Models
+@model Product
+
+
+<h1>Product details - @Model.Name</h1>
+<article>
+    <h1>@Model.Name</h1>
+    <img src="@Model.ImageUrl" alt="@Model.Name" />
+    <section>
+        <p>@Model.Description</p>
+
+    </section>
+    <p>@Model.Price.ToString(format: "n2") kr</p>
+</article>

@@ -5,7 +5,7 @@
 namespace RunStore.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class IntialCreation : Migration
+    public partial class IntialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

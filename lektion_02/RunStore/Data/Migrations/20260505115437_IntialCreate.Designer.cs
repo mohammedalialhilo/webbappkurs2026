@@ -10,8 +10,8 @@ using RunStore.Data;
 namespace RunStore.Data.Migrations
 {
     [DbContext(typeof(EShopContext))]
-    [Migration("20260505110526_IntialCreation")]
-    partial class IntialCreation
+    [Migration("20260505115437_IntialCreate")]
+    partial class IntialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
