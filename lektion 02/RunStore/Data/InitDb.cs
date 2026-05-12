@@ -13,7 +13,6 @@ public class CreateDatabase
         var context = scope.ServiceProvider.GetRequiredService<EShopContext>()
             ?? throw new InvalidOperationException("Failed to retrieve eshop context");
 
-
         await SeedData(context);
 
     }

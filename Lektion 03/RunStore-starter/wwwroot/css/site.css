@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    display: flexbox; 
+    text-align: center;
+    color: yellowgreen;
+    padding: auto;
+}
+li{
+    display: inline; 
+    
+}
+ul{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+a{
+    text-decoration: dashed;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+a:hover{
+    background-color: grey;
+    color: aquamarine;
+}
+img{
+    width: 400px;
+}

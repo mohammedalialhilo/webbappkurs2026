@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DrtfzrKi89I=",
+  "dgSpecHash": "9GfBLkOuNf8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alhil\\OneDrive\\Skrivbord\\webbapp\\webbappkurs2026\\lektion_02\\RunStore\\RunStore.csproj",
+  "projectFilePath": "C:\\Users\\alhil\\Desktop\\webbutveckling\\webbappkurs2026\\lektion 02\\RunStore\\RunStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alhil\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\alhil\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",

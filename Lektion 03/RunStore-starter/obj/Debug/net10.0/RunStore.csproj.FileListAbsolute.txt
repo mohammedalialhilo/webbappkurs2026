@@ -136,7 +136,6 @@ C:\Users\alhil\Desktop\webbutveckling\webbappkurs2026\lektion 03\RunStore-starte
 C:\Users\alhil\Desktop\webbutveckling\webbappkurs2026\lektion 03\RunStore-starter\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\alhil\Desktop\webbutveckling\webbappkurs2026\lektion 03\RunStore-starter\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
 C:\Users\alhil\Desktop\webbutveckling\webbappkurs2026\lektion 03\RunStore-starter\obj\Debug\net10.0\scopedcss\bundle\RunStore.styles.css
-C:\Users\alhil\Desktop\webbutveckling\webbappkurs2026\lektion 03\RunStore-starter\obj\Debug\net10.0\compressed\98qxje9fix-{0}-5ipweew5fc-5ipweew5fc.gz
 C:\Users\alhil\Desktop\webbutveckling\webbappkurs2026\lektion 03\RunStore-starter\obj\Debug\net10.0\compressed\fe1qxjkekj-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\alhil\Desktop\webbutveckling\webbappkurs2026\lektion 03\RunStore-starter\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\alhil\Desktop\webbutveckling\webbappkurs2026\lektion 03\RunStore-starter\obj\Debug\net10.0\staticwebassets.build.json.cache
@@ -149,3 +148,4 @@ C:\Users\alhil\Desktop\webbutveckling\webbappkurs2026\lektion 03\RunStore-starte
 C:\Users\alhil\Desktop\webbutveckling\webbappkurs2026\lektion 03\RunStore-starter\obj\Debug\net10.0\RunStore.pdb
 C:\Users\alhil\Desktop\webbutveckling\webbappkurs2026\lektion 03\RunStore-starter\obj\Debug\net10.0\RunStore.genruntimeconfig.cache
 C:\Users\alhil\Desktop\webbutveckling\webbappkurs2026\lektion 03\RunStore-starter\obj\Debug\net10.0\ref\RunStore.dll
+C:\Users\alhil\Desktop\webbutveckling\webbappkurs2026\lektion 03\RunStore-starter\obj\Debug\net10.0\compressed\98qxje9fix-{0}-k1g12j1zqz-k1g12j1zqz.gz
