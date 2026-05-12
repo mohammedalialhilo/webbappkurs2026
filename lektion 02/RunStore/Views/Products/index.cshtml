@@ -3,12 +3,16 @@
 @model IEnumerable<Product>;
 
 <h1>Our Products</h1>
-@foreach(var product in Model){
-    <section>
-        <h4>@product.Name</h4>
-        <a asp-controller="Products" asp-action="Details" asp-route-id="@product.Id">
-        <img src="@product.ImageUrl" alt="@product.Name" class="product-thumbnail"/>
-        </a>
-        <p>@product.Price.ToString("n2") Kr</p>
-    </section>
-}
+<article >
+
+    @foreach(var product in Model){
+        <section class="product">
+            <h4>@product.Name</h4>
+            <a asp-controller="Products" asp-action="Details" asp-route-id="@product.Id">
+                <img src="@product.ImageUrl" alt="@product.Name" class="product-thumbnail"/>
+            </a>
+            <p>@product.Price.ToString("n2") Kr</p>
+        </section>
+    }
+        <div class="clear"></div>
+</article>
