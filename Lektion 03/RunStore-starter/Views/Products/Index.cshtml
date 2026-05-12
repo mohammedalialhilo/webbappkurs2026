@@ -1,0 +1,14 @@
+@using RunStore.Models
+
+@model IEnumerable<Product>;
+
+<h1>Our Products</h1>
+@foreach(var product in Model){
+    <section>
+        <h4>@product.Name</h4>
+        <a asp-controller="Products" asp-action="Details" asp-route-id="@product.Id">
+        <img width="200" src="@product.ImageUrl" alt="@product.Name"/>
+        </a>
+        <p>@product.Price.ToString("n2") Kr</p>
+    </section>
+}
