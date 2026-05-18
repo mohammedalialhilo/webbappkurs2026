@@ -1,0 +1,67 @@
+/* nav bar style */
+nav {
+    display: flex;
+    background-color: #6B5E42;
+    height: 6.25 rem;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: solid 1px #EAA71B;
+    z-index: 1;
+    opacity: 0.9;
+    position: fixed;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.8rem;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+
+    /*  padding-top: 5px;
+        padding-bottom: 5px; */
+}
+
+
+
+nav ul li a {
+    font-family: "Playwrite GB J Guides", cursive;
+    font-size: 15px;
+    text-decoration: none;
+    /* text-align: center; */
+    /* padding: 5px;
+    border-radius: 5px; */
+    display: inline-block;
+
+    color: #EAA71B;
+    transition: all 0.3s ease-out;
+
+}
+
+nav ul li a:hover {
+    /* background-color: #EAA71B; */
+    /* color: #413C33; */
+    font-family: "Intel One Mono", monospace;
+    /* font-style: italic; */
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 2rem;
+    text-shadow: 2px 2px 5px black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    color: bisque;
+}
+
+.logo img {
+    width: 50px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}

@@ -1,0 +1,23 @@
+  .container {
+
+      max-width: 960px;
+      margin: auto;
+      text-align: center;
+
+  }
+
+
+  .btn {
+      width: 300px;
+      border-radius: 30px;
+      background-color: #e7e7e7;
+      color: black;
+
+  }
+
+  .btn:hover {
+      background-color: grey;
+      color: white;
+      box-shadow: 10px 10px 8px #888888;
+
+  }

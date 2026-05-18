@@ -1,157 +1,58 @@
     @import url('https://fonts.googleapis.com/css2?family=Diplomata&family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Pacifico&family=Playwrite+GB+J+Guides:ital@0;1&display=swap');
-    
+    @import './navbar.css';
+    @import './utility.css';
+    @import './home.css';
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-/* html selectorer */
-body{
-    font-family: "Playwrite GB J Guides", cursive;
-    font-size: 16px;
-    line-height: 1.3;
-    color: #432004;
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(199, 190, 190);
-}
-main{
-    padding: 50px 20px 50px 20px;
-}
-
-h1 {
-    font-family: "Diplomata", serif;
-    text-align: center;
-    color: yellowgreen;
-    margin: 0 0 30px 0;
-    line-height: 3;
-}
-    img{
-        width: 600px;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-    .container{
 
-        max-width: 960px;
-        margin: auto;
-        text-align: center;
+    /* html selectorer */
+    body {
+        font-family: "Playwrite GB J Guides", cursive;
+        font-size: 1rem;
+        line-height: 1.3;
+        color: #fdb61e;
 
-    }
-   
-    
-  
-    /* nav bar style */
-    nav{
-        background-color: hsl(27, 89%, 14%);
-        height: 50px;
+        height: 100vh;
         width: 100vw;
-        top: 0;
-        left: 0;
-        position: fixed;
+        background-color: #322a18;
     }
 
-    nav ul{
-        
-        list-style: none;
-        
-       /*  padding-top: 5px;
-        padding-bottom: 5px; */
-    }
-    nav ul li{
-       float: left;
-        
-    }
-nav ul li a{
-    font-family: "Playwrite GB J Guides", cursive;
-    text-decoration: none;
-    text-align: center;
-    /* padding: 5px;
-    border-radius: 5px; */
-    display: inline-block;
-    margin-top: 15px;
-    margin-left: 8px;
-    color: #fefce8;
-    
-}
-nav ul li a:hover{
-    background-color: grey;
-    color: aquamarine;
-}
-/* Home page style */
-.landing-page-image{
-       position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: -1;
-    }
-      #landing-page-header{
-        color: goldenrod;
-    }
-    .Landing-page-section{
-        text-shadow: 2px 2px 5px gold;
-        width:100%;
-        text-align: justify;
+
+    main {
+        padding: 6rem 2rem 4rem 2rem;
     }
 
-    /* product page style */
-    .product{
-        border: solid 1px rgba(90, 86, 86, 0.815);
-        float: left;
-        margin-left: 50px;
-        margin-bottom: 50px;
+    h1 {
+        font-size: 2rem;
+        font-family: "Diplomata", serif;
         text-align: center;
-        border-radius: 10px;
-        box-shadow:5px 5px 10px 2px rgb(66, 65, 65) ;
-        
-    }
-    .product h4{
-         font-family: "Intel One Mono", monospace;
-  font-optical-sizing: auto;
-         
-         margin: 5px 0 2 0;
-         font-size: 18px;
-    }
-     .product-thumbnail{
-        width: 250px;
-    }
-    .product:hover {
-        box-shadow: 10px 10px 10px 2px   hsl(27, 89%, 14%) ;
+        color: #C09537;
+        margin: 3rem;
+        line-height: 3;
     }
 
-    /* contact page */
-    form{
-        border: solid 1px blue;
-        
-    }
-    form label{
-        display: block;
-    }
-    form input{
-        width: 300px;
-    }
-    form input:hover{
-        box-decoration-break: initial;
-    }
-    .btn{
-        width: 300px;
-        border-radius: 30px;
-        background-color: #e7e7e7; color: black;
-
-    }
-    .btn:hover{
-        background-color: grey;
-        color: white;
-        box-shadow: 10px 10px 8px #888888;
-        
+    h3 {
+        font-family: "Intel One Mono", monospace;
+        padding: 2rem 0 1rem 0;
     }
 
-    article{
+
+
+    a {
+        text-decoration: none;
+    }
+
+
+
+    article {
         width: 100%;
-       
+
     }
-    .clear{
+
+    .clear {
         clear: both;
     }

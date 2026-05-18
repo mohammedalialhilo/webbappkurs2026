@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Demo</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium';
+            font-size: 1rem;
+        }
+
+        .container {
+            border: solid 0.125rem red;
+            padding: 1rem;
+            height: 12.5rem;
+        }
+
+        .demo-1 {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .demo-2 {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .demo-3 {
+            display: flex;
+            gap: 1rem;
+            /* flex-wrap: wrap; */
+            justify-content: space-around;
+        }
+
+        .demo-4 {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+
+            height: 25rem;
+
+        }
+
+        .demo-5 {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.9rem;
+
+        }
+
+        .demo-5 p {
+            font-size: 1.2em;
+        }
+
+        .demo-5 div {
+            font-size: 1em;
+
+        }
+
+
+
+
+
+        .box {
+            display: flex;
+            border: solid 0.06rem blueviolet;
+            width: 3.125rem;
+            height: 3.125rem;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h4>Basic flex box</h4>
+        <section class="container demo-1">
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
+            <div class="box">Box 3</div>
+            <div class="box">Box 4</div>
+        </section>
+
+        <h4>Centered flex box</h4>
+        <section class="container demo-2">
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
+            <div class="box">Box 3</div>
+            <div class="box">Box 4</div>
+        </section>
+        <h4>Placement flex box</h4>
+        <section class="container demo-3">
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
+            <div class="box">Box 3</div>
+            <div class="box">Box 4</div>
+        </section>
+        <h4>Direction flex box</h4>
+        <section class="container demo-4">
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
+            <div class="box">Box 3</div>
+            <div class="box">Box 4</div>
+        </section>
+        <h4>rem vs em flex box</h4>
+        <section class="container demo-5">
+            <p>Rem Vs Em</p>
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

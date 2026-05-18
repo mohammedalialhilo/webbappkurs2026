@@ -1,0 +1,47 @@
+/* Home page style */
+#home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#home-page img {
+    display: block;
+    transition: all 0.3s ease-in-out;
+
+}
+
+#home-page img:hover {
+    transform: scale(1);
+}
+
+#home-page>div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.landing-image {
+    width: 70%;
+    border: solid 1px #C09537;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 10px 2px hsl(27, 89%, 14%);
+}
+
+.landing-logo {
+    position: absolute;
+    top: 2rem;
+    width: 150px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+#home-page section p {
+    width: 100%;
+    text-align: justify;
+}

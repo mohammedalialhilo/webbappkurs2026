@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        .box {
+            position: relative;
+            height: 200px;
+            width: 200px;
+            background-color: aquamarine;
+            animation-name: mm;
+            animation-duration: 5s;
+            animation-iteration-count: 50;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate-reverse;
+
+
+            animation: mm 5s ease-in-out 3s alternate-reverse forwards;
+
+
+        }
+
+        @keyframes mm {
+            from {
+                top: 0;
+                left: 0;
+            }
+
+            to {
+                top: 500px;
+                left: 700px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>
