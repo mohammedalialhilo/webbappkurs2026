@@ -1,11 +1,17 @@
 @using RunStore.Models
 @model Product
 
-<h1>Product Details - @Model.Name</h1>
-<article>
-    <img width="450" src="@Model.ImageUrl" alt="@Model.Name"/>
+<h1>Product Details </h1>
+<article id="product-details">
+    <h2>@Model.Name</h2>
     <section>
-        <p>@Model.Description</p>
+        <img width="450" src="@Model.ImageUrl" alt="@Model.Name" />
+        <section>
+            <p>@Model.Description</p>
+        </section>
+        <div>
+            <span>Price:</span>
+            <span>@Model.Price.ToString("n2") Kr</span>
+        </div>
     </section>
-    <p>@Model.Price.ToString("n2") Kr</p>
 </article>

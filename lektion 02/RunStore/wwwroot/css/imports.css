@@ -1,0 +1,9 @@
+    @import url('https://fonts.googleapis.com/css2?family=Diplomata&family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Pacifico&family=Playwrite+GB+J+Guides:ital@0;1&display=swap');
+    @import './site.css';
+    @import './navbar.css';
+    @import './color.css';
+    @import './products-page.css';
+    @import './utility.css';
+    @import './home.css';
+    @import './product-details.css';
+    @import './confirmation.css';

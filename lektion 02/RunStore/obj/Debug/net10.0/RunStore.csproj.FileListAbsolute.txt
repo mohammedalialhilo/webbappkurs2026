@@ -450,6 +450,9 @@ C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 02\RunStore\ob
 C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 02\RunStore\obj\Debug\net10.0\RunStore.pdb
 C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 02\RunStore\obj\Debug\net10.0\RunStore.genruntimeconfig.cache
 C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 02\RunStore\obj\Debug\net10.0\ref\RunStore.dll
-C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 02\RunStore\obj\Debug\net10.0\compressed\fn9pfjelb7-{0}-xf7zfkm6ur-xf7zfkm6ur.gz
-C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 02\RunStore\obj\Debug\net10.0\compressed\d3gyzgb8uc-{0}-0lm1ay2nvx-0lm1ay2nvx.gz
-C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 02\RunStore\obj\Debug\net10.0\compressed\98qxje9fix-{0}-1bu277tqkq-1bu277tqkq.gz
+C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 02\RunStore\obj\Debug\net10.0\compressed\d3gyzgb8uc-{0}-vkf36orim1-vkf36orim1.gz
+C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 02\RunStore\obj\Debug\net10.0\compressed\fn9pfjelb7-{0}-5w0x51l2gr-5w0x51l2gr.gz
+C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 02\RunStore\obj\Debug\net10.0\compressed\edhx8idg28-{0}-yznsvskb3t-yznsvskb3t.gz
+C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 02\RunStore\obj\Debug\net10.0\compressed\l7auwm2ogo-{0}-8ep0uod9s4-8ep0uod9s4.gz
+C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 02\RunStore\obj\Debug\net10.0\compressed\98qxje9fix-{0}-ovieio39u7-ovieio39u7.gz
+C:\Users\alhil\OneDrive\Skrivbord\webbapp\webbappkurs2026\lektion 02\RunStore\obj\Debug\net10.0\compressed\5uc6whzmlm-{0}-gy9n606go9-gy9n606go9.gz

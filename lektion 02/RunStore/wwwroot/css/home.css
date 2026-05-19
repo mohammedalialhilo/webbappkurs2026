@@ -14,7 +14,7 @@
 }
 
 #home-page img:hover {
-    transform: scale(1);
+    transform: scale(1.05);
 }
 
 #home-page>div {
@@ -28,9 +28,9 @@
 
 .landing-image {
     width: 70%;
-    border: solid 1px #C09537;
+    border: solid 1px var(--border-color);
     border-radius: 2rem;
-    box-shadow: 10px 10px 10px 2px hsl(27, 89%, 14%);
+    box-shadow: 10px 10px 10px 2px var(--shadow-color);
 }
 
 .landing-logo {

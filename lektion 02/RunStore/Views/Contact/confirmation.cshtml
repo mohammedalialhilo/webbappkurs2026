@@ -1,0 +1,15 @@
+@using RunStore.Models
+@model ContactModel
+<h1>Thank You!</h1>
+<article>
+    <section class="message-info">
+
+        <p>Hello <span>@Model.FirstName @Model.LastName </span></p>
+        <p>You have send a massage from <span>@Model.Email </span></p>
+
+        <p>You have send the following massage: </p>
+        <span>"@Model.Massage"</span>
+    </section>
+
+
+</article>

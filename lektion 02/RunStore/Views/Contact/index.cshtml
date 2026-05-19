@@ -1,16 +1,21 @@
+@model RunStore.Models.ContactModel
 <h1>Contact Us</h1>
-<form action="post">
+<form asp-action="SendInfo">
     <div class="form-controls">
         <label for="firstName">Förnamn</label>
-        <input type="text" name="firstName" id="firstName">
+        <input asp-for="FirstName" type="text" name="firstName" id="firstName">
     </div>
     <div class="form-controls">
         <label for="lastName">Efternamn</label>
-        <input type="text" name="lastName" id="lastName">
+        <input asp-for="LastName" type="text" name="lastName" id="lastName">
     </div>
     <div class="form-controls">
         <label for="email">Email</label>
-        <input type="text" name="email" id="email">
+        <input asp-for="Email" type="text" name="email" id="email">
     </div>
-    <button type="submit" class="btn">Skicka</button>
+    <div class="form-controls">
+        <label for="massage">Massage</label>
+        <textarea asp-for="Massage" type="text" name="massage" id="massage"></textarea>
+    </div>
+    <button type="submit" class="btn btn-rounded">Skicka</button>
 </form>
