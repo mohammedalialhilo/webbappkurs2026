@@ -1,20 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/home-page.css" />
     <!-- <script src="./lib/app.js" defer></script> -->
     <!-- <script src="./lib/functions.js" defer></script> -->
     <title>RunStore</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-
+      <!-- nav start -->
+      <nav>
+        <ul>
+          <li class="logo">
+            <a href="./index.html">
+              <img src="./assets/images/runstore.png" alt="logotype" />
+              <span>RunStore</span>
+            </a>
+          </li>
+          <li class="toggle">
+            <input type="checkbox" id="menu-btn" class="menu-btn" />
+            <label for="menu-btn" class="menu-icon">
+              <span class="nav-icon"></span>
+            </label>
+          </li>
+          <li class="menu-item"><a href="./index.html">Start!</a></li>
+          <li class="menu-item">
+            <a href="./pages/products/products.html">Produkter!</a>
+          </li>
+          <li class="menu-item">
+            <a href="./pages/about/about.html">Om oss!</a>
+          </li>
+          <li class="menu-item">
+            <a href="./pages/contact/contact.html">Kontakta Oss!</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- nav end -->
     </header>
-    <main>
-        <h1>Välkommen till RunStore!</h1>
-        
+    <main id="home-page" class="container">
+      <h1>Välkommen till RunStore!</h1>
+      <div>
+        <img
+          src="./assets/images/jogging-forest.png"
+          alt="forest"
+          class="landing-image"
+        />
+        <img
+          src="./assets/images/runstore.png"
+          alt="logotype"
+          class="landing-logo"
+        />
+      </div>
+      <section>
+        <h3>Vi hjälper dig att komma igång</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque nam
+          sequi iure ipsa commodi? Totam quaerat voluptate maxime officiis
+          maiores voluptas expedita pariatur facilis iure nobis, nam aliquid
+          obcaecati mollitia perferendis dolor quo voluptates. Obcaecati et est
+          eum ad vitae facilis temporibus iure accusamus cumque, quo quae quis
+          odio repellendus!
+        </p>
+      </section>
     </main>
-</body>
+  </body>
 </html>
