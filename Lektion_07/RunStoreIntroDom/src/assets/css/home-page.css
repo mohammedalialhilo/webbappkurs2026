@@ -27,8 +27,8 @@
 
 .landing-logo {
   position: absolute;
-  top: 2rem;
-  width: 150px;
+  top: 0.5rem;
+  width: 75px;
   aspect-ratio: 1/1;
   border-radius: 50%;
 }
@@ -36,4 +36,10 @@
 #home-page section p {
   width: 100%;
   text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .landing-logo {
+    width: 150px;
+  }
 }
