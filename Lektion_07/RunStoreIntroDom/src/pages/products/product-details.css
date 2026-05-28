@@ -1,0 +1,23 @@
+@import "../../assets/css/site.css";
+
+#product-details article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#product-details img {
+  width: 450px;
+  border-radius: 2rem;
+  border: solid 2px rgba(226, 232, 240, 0.7);
+  box-shadow: 0 0 20px 10px rgba(225, 225, 225, 0.5);
+}
+#product-details section p {
+  width: 450px;
+  margin: 2rem 0;
+  text-align: justify;
+}
+#product-details article > p {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
