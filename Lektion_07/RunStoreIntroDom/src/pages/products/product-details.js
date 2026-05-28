@@ -1,8 +1,10 @@
+import { products } from "../../Data/products.js";
+import { navbar } from "../../utilities/menu.js";
 const heading = document.querySelector("h1");
 const productDetails = document.querySelector("#product-details");
 
 const initApp = () => {
-  console.log(location.search.split("=")[1]);
+  document.querySelector("header").insertAdjacentHTML("afterbegin", navbar);
   const id = location.search.split("=")[1];
 
   if (!id) return;

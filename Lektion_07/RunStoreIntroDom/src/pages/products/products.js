@@ -1,6 +1,9 @@
+import { products } from "../../Data/products.js";
+import { navbar } from "../../utilities/menu.js";
+
 const productList = document.querySelector("#product-list");
 const initApp = () => {
-  console.log("App is loading....");
+  document.querySelector("header").insertAdjacentHTML("afterbegin", navbar);
   displayProducts();
 };
 const displayProducts = () => {
