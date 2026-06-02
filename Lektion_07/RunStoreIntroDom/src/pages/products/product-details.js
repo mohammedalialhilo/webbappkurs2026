@@ -1,23 +1,22 @@
-import { products } from "../../Data/products.js";
 import { navbar } from "../../utilities/menu.js";
+import data from "../../utilities/data-client.js";
+
 const heading = document.querySelector("h1");
 const productDetails = document.querySelector("#product-details");
 
-const initApp = () => {
+const initApp = async () => {
   document.querySelector("header").insertAdjacentHTML("afterbegin", navbar);
   const id = location.search.split("=")[1];
 
   if (!id) return;
-
-  const product = findProduct(id);
+  const client = await new data('../../Data/products.json');
+  // const products = await client.listAll();
+  const product = await client.find(id);
+  // const product = await new DataClient(client).find(id);
   if (!product) return;
-
   displayProduct(product);
 };
 
-const findProduct = (id) => {
-  return products.find((product) => product.id === id);
-};
 
 const displayProduct = (product) => {
   let html = " ";

@@ -4,19 +4,27 @@
 class Person {
     #firstName;
     #lastName;
-    constructor() {
-        this.#firstName = 'Ali';
-        this.#lastName = 'Alhilo';
+    #email;
+    constructor(firstName, lastName, email) {
+        this.#firstName = firstName;
+        this.#lastName = lastName;
+        this.#email = email;
     }
 
     get firstName() {
         return this.#firstName;
     }
+    set firstName(name) {
+        this.#firstName = this.#adjustName(name);
+    }
     get lastName() {
         return this.#lastName;
     }
-    set lastName(lastName) {
+    set lastName(name) {
         this.#lastName = this.#adjustName(name);
+    }
+    get email() {
+        return this.#email.toLowerCase();
     }
     getFullName() {
         return `${this.#firstName} ${this.#lastName}`;
@@ -25,14 +33,42 @@ class Person {
     #adjustName(value) {
         return value.charAt(0).toUpperCase() + value.slice(1);
     }
+
+    static sayHello() {
+        console.log('Hej på dig!');
+    }
 };
 
-const ali = new Person();
-console.log(ali);
-console.log(ali.firstName);
+const person = new Person('Ali', 'Alhilo', 'Alhilo@email.com');
+console.log(person);
 
-ali.lastName = 'mohammed';
-console.log(ali.lastName);
+console.log(person.email);
+Person.sayHello();
 
-console.log(ali.getFullName());
+class Student extends Person {
+    #phone = '';
+    #courses = [];
+    constructor(firstName, lastName, email, phone) {
+        super(firstName, lastName, email);
+        this.#phone = phone;
 
+    }
+
+    get courses() {
+        return this.#courses;
+    }
+
+
+    enrollCourse(course) {
+        this.#courses.push(course);
+    }
+
+}
+const student = new Student('Kalle', 'Nillson', 'Kalle@email.com', '071000000');
+
+console.log(student);
+
+student.enrollCourse('Javascript');
+student.enrollCourse('C#');
+
+console.log(student.courses);

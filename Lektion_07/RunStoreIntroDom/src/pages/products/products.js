@@ -1,16 +1,20 @@
-import { products } from "../../Data/products.js";
 import { navbar } from "../../utilities/menu.js";
+import data from "../../utilities/data-client.js";
 
 const productList = document.querySelector("#product-list");
-const initApp = () => {
+const initApp = async () => {
   document.querySelector("header").insertAdjacentHTML("afterbegin", navbar);
-  displayProducts();
-};
-const displayProducts = () => {
-  console.log(products);
-  let html = "";
-  products.map(
-    (product) =>
+
+  const client = await new data('../../Data/products.json');
+  const products = await client.listAll();
+  displayProducts(products);}
+
+  
+  const displayProducts = (products) => {
+    console.log(products);
+    let html = "";
+    products.map(
+      (product) =>
       (html += `
     <section class="product-item">
         <h4>${product.name}</h4>
@@ -21,7 +25,7 @@ const displayProducts = () => {
     </section>
 
     `),
-  );
-  productList.innerHTML = html;
-};
-initApp();
+    );
+    productList.innerHTML = html;
+  };
+  initApp();
