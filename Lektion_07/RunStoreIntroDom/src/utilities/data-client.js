@@ -1,5 +1,5 @@
 // import { products } from "../Data/products.js";
-
+import { settings } from "../config/settings.js";
 
 
 
@@ -7,9 +7,9 @@ export default class DataClient {
 
     #data = undefined;
     #url = ' ';
-    constructor(url) {
+    constructor() {
         // this.#fetchData(url);
-        this.#url = url;
+        this.#url = settings.BASE_API_URL;
 
     }
     async listAll() {
@@ -17,11 +17,10 @@ export default class DataClient {
         return this.#data;
     }
 
-    async find(id) {
+    async findById(id) {
         await this.#fetchData();
         return this.#data.find((product) => product.id === id);
     }
-
 
     async #fetchData() {
         try {
@@ -30,13 +29,9 @@ export default class DataClient {
             if (response.ok) {
                 const result = await response.json();
                 this.#data = result.data;
-                console.log(result);
+                // console.log(result);
                 return;
             }
-
-
-
-
         } catch (error) {
             console.log(error);
         }

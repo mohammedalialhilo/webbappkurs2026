@@ -1,5 +1,5 @@
 import { navbar } from "../../utilities/menu.js";
-import data from "../../utilities/data-client.js";
+import DataClient from "../../utilities/data-client.js";
 
 const heading = document.querySelector("h1");
 const productDetails = document.querySelector("#product-details");
@@ -9,10 +9,8 @@ const initApp = async () => {
   const id = location.search.split("=")[1];
 
   if (!id) return;
-  const client = await new data('../../Data/products.json');
-  // const products = await client.listAll();
-  const product = await client.find(id);
-  // const product = await new DataClient(client).find(id);
+  const client = await new DataClient();
+  const product = await client.findById(id);
   if (!product) return;
   displayProduct(product);
 };
