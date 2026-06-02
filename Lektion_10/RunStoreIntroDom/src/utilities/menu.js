@@ -23,5 +23,8 @@ export const navbar = /*html*/ `
     <li class="menu-item">
         <a href="/pages/contact/contact.html">Kontakta oss</a>
     </li>
+    <li class="menu-item">
+        <a href="/pages/users/register.html">Logga in</a>
+    </li>
     </ul>
 </nav>`;

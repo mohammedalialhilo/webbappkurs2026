@@ -1,5 +1,6 @@
 import { navbar } from "../../utilities/menu.js";
 import DataClient from "../../utilities/data-client.js";
+import Cart from "../../utilities/cart.js";
 
 const heading = document.querySelector("h1");
 const productDetails = document.querySelector("#product-details");
@@ -23,6 +24,7 @@ const displayProduct = (product) => {
   html = /*html*/ `
     <article>
       <img src="../../assets${product.imageUrl}" alt="${product.name}">
+      <button id="addToCart" title="Add To cart"><i class="fa-thin fa-basket-shopping"></i></button>
       <section>
         <p>Beskrivning: <br> ${product.description}</p>
       </section>
@@ -31,5 +33,23 @@ const displayProduct = (product) => {
   `;
 
   productDetails.innerHTML = html;
+
+  document.querySelector("#addToCart").addEventListener("click", (e) => addToCart(e, product));
 };
+
+
+const addToCart = (e, product) => {
+  e.preventDefault();
+  console.log(product);
+
+  product.quantity = 1;
+  updateCart(product);
+}
+
+const updateCart = (item) => {
+  const cart = new Cart('cart');
+  const cartItems = cart.getCartItems();
+  cartItems.push(item);
+  cart.setCartItems(cartItems);
+}
 initApp();

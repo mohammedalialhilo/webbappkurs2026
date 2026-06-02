@@ -12,6 +12,10 @@ export default class DataClient {
         this.#url = `${settings.BASE_API_URL}/${resource}`;
 
     }
+
+    async add(data) {
+        const success = await this.#addData(data);
+    }
     async listAll() {
         await this.#fetchData();
         return this.#data;
@@ -20,6 +24,22 @@ export default class DataClient {
     async findById(id) {
         await this.#fetchData(id);
         return this.#data;
+    }
+
+    async #addData(data) {
+        try {
+            const response = await fetch(this.#url, {
+                method: "POST",
+                headers: {
+                    'contant-type': 'application/json'
+                },
+                body: JSON.stringify(data),
+            });
+            if (response.status === 201) return true;
+            return false;
+        } catch (error) {
+            console.log(error);
+        }
     }
 
     async #fetchData(id = undefined) {
