@@ -1,0 +1,59 @@
+@import "/assets/css/site.css";
+
+#shopping-cart {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+}
+.cart-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border: solid 1px var(--primary-border-color);
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.cart-content section {
+  padding: 0.8rem;
+}
+.cart-content section:last-child {
+  display: flex;
+  align-items: first baseline;
+  gap: 1rem;
+}
+
+.cart-content span {
+  font-size: 1.2rem;
+}
+
+.cart-content button {
+  height: 1.25rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.thumbnail {
+  width: 150px;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.order-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0 1.4rem;
+  border-left: solid 1px var(--primary-border-color);
+}
+.order-info h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
