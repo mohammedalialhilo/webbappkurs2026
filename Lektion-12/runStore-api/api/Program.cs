@@ -5,7 +5,6 @@ using infrastructure.Data;
 using infrastructure.Repositories;
 using infrastructure.Services;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.CodeAnalysis.Options;
 using Microsoft.EntityFrameworkCore;
 using StackExchange.Redis;
 
