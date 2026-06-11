@@ -42,6 +42,39 @@ export default class DataClient {
     return this.#data;
   }
 
+  async getUserInfo(token) {
+    try {
+      const response = await fetch(this.#url, {
+        method: "GET",
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
+
+      if (response.ok) {
+        return await response.json();
+      } else {
+        throw new Error(`${response.status} - ${response.statusText}`);
+      }
+    } catch (error) {
+      console.log(error.message);
+    }
+  }
+
+  async logout() {
+    try {
+      const response = await fetch(this.#url, {
+        method: "POST",
+      });
+
+      if (response.status !== 204) {
+        throw new Error(`${response.status} - ${response.statusText}`);
+      }
+    } catch (error) {
+      console.log(error.message);
+    }
+  }
+
   async #addData(data) {
     try {
       const response = await fetch(this.#url, {

@@ -15,9 +15,10 @@ const handleSubmit = async (e) => {
   const client = new DataClient("login");
   const result = await client.login(data);
 
-  console.log(result);
+  localStorage.setItem("token", JSON.stringify(result.accessToken));
+  form.reset();
 
-  // location.href = '/pages/users/profile.html';
+  location.href = "/pages/users/profile.html";
 };
 
 initApp();
