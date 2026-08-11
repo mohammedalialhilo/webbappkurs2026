@@ -1,0 +1,55 @@
+@import '../../assets/css/site.css';
+
+#product-details article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#product-details article img {
+  width: 450px;
+  border-radius: 1rem;
+  border: solid 2px rgba(226, 232, 240, 0.7);
+  box-shadow: 0 0 20px 2px rgba(255, 255, 255, 0.5);
+}
+
+#product-details article section p {
+  width: 450px;
+  margin: 2rem 0;
+  text-align: justify;
+}
+
+#product-details article > p {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+#product-details article div {
+  position: relative;
+}
+
+#product-details article button {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border: solid 1px blue;
+  background-color: #004f3b;
+  border-radius: 50%;
+  transition: all 0.2s ease-out;
+}
+
+#product-details article button i {
+  color: var(--text-color);
+}
+
+#product-details article button:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.7);
+  border: solid 1px var(--primary-border-color);
+}
